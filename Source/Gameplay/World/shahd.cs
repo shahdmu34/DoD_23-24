@@ -15,16 +15,38 @@ using Microsoft.Xna.Framework.Media;
 #endregion
 namespace DoD_23_24
 {
-    public class shahd : Basic2D
+    public class Shahd : Basic2D
     {
 
+       
 
-        public shahd(string PATH, Vector2 POS, Vector2 DIMS, bool shouldScale) : base(PATH, POS, DIMS, shouldScale)
+
+        public Shahd(string PATH, Vector2 POS, Vector2 DIMS, bool shouldScale) : base(PATH, POS, DIMS, shouldScale)
         {
         }
 
         public override void Update(GameTime gameTime)
         {
+
+            var kstate = keboard.GetState();
+
+            if (kstate.IsKeyDown(Keys.W){
+
+                pos.Y -= 1;
+            }
+            else if (kstate.IsKeyDown(Keys.Down))
+            {
+                pos.Y += 1;
+            }
+            if (kstate.IsKeyDown(Keys.Right))
+            {
+                pos.X += 1;
+            }
+            else if (kstate.IsKeyDown(Keys.Left))
+            {
+                pos.X -= 1;
+            }
+
             base.Update(gameTime);
         }
 
