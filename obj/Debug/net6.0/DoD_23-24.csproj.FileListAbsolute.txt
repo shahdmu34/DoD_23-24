@@ -32,3 +32,6 @@
 /Users/hadi/Desktop/DoD_23-24/bin/Debug/net6.0/System.Text.Encodings.Web.dll
 /Users/hadi/Desktop/DoD_23-24/bin/Debug/net6.0/System.Text.Json.dll
 /Users/hadi/Desktop/DoD_23-24/bin/Debug/net6.0/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll
+C:\Users\smust\OneDrive\Desktop\DoD_23-24\obj\Debug\net6.0\DoD_23-24.dll
+C:\Users\smust\OneDrive\Desktop\DoD_23-24\obj\Debug\net6.0\refint\DoD_23-24.dll
+C:\Users\smust\OneDrive\Desktop\DoD_23-24\obj\Debug\net6.0\DoD_23-24.pdb
